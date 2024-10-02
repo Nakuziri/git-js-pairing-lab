@@ -31,3 +31,11 @@ const multipleOfThreeOrFive = () => {
 };
 
 multipleOfThreeOrFive();
+
+//Function 4
+const untilNum = (numVal) => { 
+    for ( let i = 1; i < numVal + 1; i += 1) {
+        console.log (i);
+    }
+};
+untilNum(50);
