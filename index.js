@@ -57,3 +57,14 @@ const add = (num1, num2) => {
    }
 }; 
 console.log (add (6,6));
+
+//Function 7
+
+const isNegative = (num) =>{
+    if(num < 0){
+        return true;
+    } else {
+        return false;
+    }
+};
+console.log(isNegative(9));
