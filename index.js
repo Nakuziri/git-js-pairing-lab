@@ -76,3 +76,14 @@ const triangleArea = (num1, num2) => {
     return aot;
 };
 console.log (triangleArea(5 , 7));
+
+//Function 9
+
+const betweenTwentyAndForty = (num) => {
+    if(num > 20 && num < 40){
+        return true;
+    } else{
+        return false;
+    }
+};
+console.log(betweenTwentyAndForty(20));
