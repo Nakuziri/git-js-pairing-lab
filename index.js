@@ -68,3 +68,11 @@ const isNegative = (num) =>{
     }
 };
 console.log(isNegative(9));
+
+//Function 8
+
+const triangleArea = (num1, num2) => {
+    const aot = .5 * num1 * num2; 
+    return aot;
+};
+console.log (triangleArea(5 , 7));
