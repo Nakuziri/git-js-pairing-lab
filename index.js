@@ -39,3 +39,10 @@ const untilNum = (numVal) => {
     }
 };
 untilNum(50);
+
+//Function 5
+
+const multiply = (num1, num2) => {
+    return num1 * num2; 
+}
+console.log(multiply(2, 10));
