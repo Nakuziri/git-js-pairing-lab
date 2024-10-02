@@ -87,3 +87,10 @@ const betweenTwentyAndForty = (num) => {
     }
 };
 console.log(betweenTwentyAndForty(20));
+
+//Function 10 
+
+const largest = (n1, n2, n3) => {
+ return Math.max (n1, n2 , n3);
+};
+console.log (largest(5 ,75, 50));
